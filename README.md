@@ -37,9 +37,9 @@ genome1.fasta  name of the file containing genome/text T1
 
 genome1.fasta  name of the file containing genome/text T2
 
-w can be {0,1}. Choose 0 if the first line of T1 should not be considered in the processing, e.g., header of a fasta file
+w can be {0,1}. Choose 1 if the first line of T1 should not be considered in the processing, e.g., header of a fasta file
 
-y can be {0,1}. Choose 0 if the first line of T2 should not be considered in the processing, e.g., header of a fasta file
+y can be {0,1}. Choose 1 if the first line of T2 should not be considered in the processing, e.g., header of a fasta file
 
 -k 17 is an internal parameter for positional sorting on the Mac OS --do not change.
 
