@@ -5,7 +5,9 @@ An efficient two-stage algorithm for enumerating all longest common substrings o
 # Usage of the C++ code
 The two-stage algorithm is implemented through five different programs ext1 ... ext5 (OS-independent) that are run in chain with external sorting (OS-dependent). We provide batch files for each OS that take care of the different command syntax of the external disk sorting, yet the input parameters are the same for all (given in the first line of the batch file).
 
-As an example, the following batch file is for Mac OS:
+As an example, the "alcsk_scrpt.sh" file for Mac OS includes the following calls:
+
+#!/bin/bash
 
 ./ext1 m genome1.fasta genome2.fasta T1wT2y
 
