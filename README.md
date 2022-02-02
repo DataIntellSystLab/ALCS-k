@@ -1,5 +1,5 @@
 # ALCS-k
-An efficient two-stage algorithm for enumerating all longest common substrings of minimum k length between genome pairs
+An efficient two-stage algorithm for enumerating all longest common substrings of minimum k length (ALCS-k) between genome pairs
 
 
 # Usage of the C++ code
@@ -42,6 +42,9 @@ w can be {0,1}. Choose 1 if the first line of T1 should not be considered in the
 y can be {0,1}. Choose 1 if the first line of T2 should not be considered in the processing, e.g., header of a fasta file
 
 -k 17 is an internal parameter for positional sorting on the Mac OS --do not change.
+
+# Output files
+The main output file is names "finalresult.txt" and includes: (A) all longest common substrings longer than k with their respective positions in the first and second text; (B) summary statistics on ALCS-k frequencies for each of the two texts; (C) information about number of elongated strings upon the common k-mers; (D) details on the longest common substring.
 
 # License
 
