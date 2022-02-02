@@ -3,21 +3,32 @@ An efficient two-stage algorithm for enumerating all longest common substrings o
 
 
 # Usage of the C++ code
-The two-stage algorithm is implemented through five different programs (OS-independent) that are run in chain with external sorting (OS-dependent). We provide batch files for each OS that take care of the different command syntax of the external disk sorting, yet the input parameters are the same for all (given in the first line of the batch file).
+The two-stage algorithm is implemented through five different programs ext1 ... ext5 (OS-independent) that are run in chain with external sorting (OS-dependent). We provide batch files for each OS that take care of the different command syntax of the external disk sorting, yet the input parameters are the same for all (given in the first line of the batch file).
 
 As an example, the following batch file is for Mac OS.
 
 ./ext1 m genome1.fasta genome2.fasta T1wT2y
+
 sort outT1.txt -o sortstrT1.txt
+
 sort outT2.txt -o sortstrT2.txt
+
 ./ext2
+
 sort strcomT1.txt -o sortstrcomT1.txt
+
 sort strcomT2.txt -o sortstrcomT2.txt
+
 ./ext3
+
 sort strextT1.txt -k 17 -o sortstrextT1.txt
+
 sort strextT2.txt -k 17 -o sortstrextT2.txt
+
 ./ext4
+
 sort strextT1T2.txt -o sortstrextT1T2.txt
+
 ./ext5
 
 m is minimum starting length, i.e., all longest common substrings of length > k will be searched and reported
