@@ -4,6 +4,10 @@ An efficient two-stage algorithm for enumerating all longest common substrings o
 
 
 
+# License
+
+MIT
+
 Copyright (c) 2022 Roberto Di Castro, Mattia Prosperi, Luciano Prosperi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
