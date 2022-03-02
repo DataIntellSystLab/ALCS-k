@@ -2,9 +2,9 @@
 An average-case efficient two-stage algorithm for enumerating all longest common substrings of minimum k-length (ALCS-k) between genome pairs
 
 # Source code, compilation and binaries
-The C++ code was compiled with g++ on Mac (M1 chipset) and Linux (x64), and with Min-GW on Windows 10 (x64). Binaries and source code are provided in the respective folders.
+The source code was written in C++ and was compiled with g++ on Mac (M1 chipset) and Linux (x64), and with Min-GW on Windows 10 (x64). Binaries and source code are provided in the respective folders.
 
-# Usage of the C++ binaries
+# Usage of executables/binaries
 The two-stage algorithm is implemented through five different programs ext1 ... ext5 (OS-independent) that are run in chain with external sorting (OS-dependent). We provide batch files for each OS that take care of the different command syntax of the external disk sorting, yet the input parameters are the same for all (given in the first line of the batch file).
 
 As an example, the "alcsk_scrpt.sh" file for Mac OS includes the following calls:
