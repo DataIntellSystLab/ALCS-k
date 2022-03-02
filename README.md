@@ -54,7 +54,7 @@ The main output file is names "finalresult.txt" and includes: (A) all longest co
 
 MIT
 
-Copyright (c) 2022 Roberto Di Castro, Mattia Prosperi, Luciano Prosperi
+Copyright (c) 2022 Roberto Di Castro, Simone Marini, Mattia Prosperi, Luciano Prosperi
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
