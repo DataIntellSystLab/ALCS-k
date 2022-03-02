@@ -1,5 +1,5 @@
 # ALCS-k
-An efficient two-stage algorithm for enumerating all longest common substrings of minimum k length (ALCS-k) between genome pairs
+An average-case efficient two-stage algorithm for enumerating all longest common substrings of minimum k-length (ALCS-k) between genome pairs
 
 # Source code, compilation and binaries
 The C++ code was compiled with g++ on Mac (M1 chipset) and Linux (x64), and with Min-GW on Windows 10 (x64). Binaries and source code are provided in the respective folders. The Perl version was compiled with Padre IDE.
